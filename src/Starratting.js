@@ -64,7 +64,7 @@ const starStyle = {
   cursor: "pointer",
 };
 
-function Star({ onRaye, full, onHoverIn, onHoverout, color, size }) {
+function Star({ onRaye, full, onHoverIn, onHoverout, color }) {
   return (
     <span
       role="button"
